@@ -1,6 +1,6 @@
 import Pop from "./Pop.js"
 
-const APP_NAME = "full-stack-network.client"
+const APP_NAME = "bcw-2023summer-network"
 
 export function saveState(key, value) {
   try {

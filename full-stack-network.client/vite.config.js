@@ -5,9 +5,10 @@ import { defineConfig } from 'vite'
 export default defineConfig({
   plugins: [vue()],
   build: {
-    outDir: 'docs',
+    outDir: '../full-stack-network/www',
     sourcemap: false
   },
+  base: '',
   server: {
     port: 8080
   }

@@ -19,10 +19,10 @@ Startup.ConfigureGlobalMiddleware(app)
 Startup.ConfigureRoutes(app)
 
 // Establish Socket
-socketProvider.initialize(httpServer)
+// socketProvider.initialize(httpServer)
 
 // Connect to Atlas MongoDB
-DbConnection.connect()
+// DbConnection.connect()
 
 // Start Server
 httpServer.listen(port, () => {
